@@ -7,7 +7,7 @@ computer = heads_or_tails[randint(0,1)]
 human = input("Heads or tails?")
 
 if human == computer:
-     print ("Correct! The coin landed on " + computer)
+    print ("Correct! The coin landed on " + computer)
 elif human == "heads" or "tails":
     print ("You lose! It was " + computer)
 else:
